@@ -1,0 +1,505 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&display=swap');
+
+ body {
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.background{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0.9948354341736695) 0%, rgba(56,49,75,0.958420868347339) 21%, rgba(255,148,59,0.8435749299719888) 46%, rgba(255,255,255,0.8547794117647058) 100%);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.h100 {
+  margin-bottom: 20px;
+}
+
+.font1 {
+  font-family: 'Noto Sans KR';
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 1.9rem;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  text-align:center;
+}
+
+.path {
+  fill: none;
+  stroke-width: 3.5px;
+}
+.content2 {
+  position: relative;
+  bottom: 60%;
+}
+
+.icon1 {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.icon2{
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 60%;
+  flex-wrap: nowrap;
+}
+
+.content1 {
+  top: 10%;
+  position: relative;
+}
+
+.path1 {
+  fill: none;
+  stroke: black;
+}
+
+.main1 {
+  top: 30%;
+  left: 20%;
+  position: absolute;
+}
+
+.title1 {
+  font-family: 'Noto Sans KR';
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height:35px;
+}
+
+.title2 {
+  font-family: 'Noto Sans KR';
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height:35px;
+   text-align:center;}
+
+.title3 {
+  font-family: 'Noto Sans KR';
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height:45px;
+  text-align:center;
+  color: rgb(59, 59, 59);   
+}
+
+.textBox1 {
+  top: 40%;
+  left: 30%;
+  position: absolute;
+}
+
+.text1 {
+  font-family: 'Noto Sans KR';
+  font-weight: 500;
+  font-size: 1rem;
+  line-height:23px;
+  padding-top: 15px;
+}
+
+.text2 {
+  font-family: 'Noto Sans KR';
+  font-weight: 500;
+  font-size: 1rem;
+  line-height:23px;
+  padding-top: 15px;
+  text-align:center;
+}
+
+
+
+.main2 {
+  top: 60%;
+  left: 50%;
+  position: absolute;
+}
+
+.main3 {
+  bottom: 90%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.main4{
+  left: 10%;
+  top: 20%;
+  position: relative;
+}
+
+.main5{
+  bottom: 70%;
+  right: 23%;
+  position: relative;
+}
+
+.icon3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon5{
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+
+.icon7{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.path2 {
+  fill: none;
+  stroke: rgb(8, 8, 8);
+  position: relative;
+}
+
+
+.content3 {
+  bottom: 8%;
+  position: relative;
+}
+
+.content3 svg {
+  position: relative;
+}
+
+.main10{
+  position: relative;
+  top: 20%;
+}
+
+.main6{
+  position: relative;
+  padding:10%;
+  bottom: 60%;
+}
+
+.main7{
+  position: relative;
+  padding:10%;
+  bottom: 30%;
+}
+
+.main8{
+  position: relative;
+  left: 15%;
+  top: 15%;
+}
+
+.main9{
+  position: relative;
+  top: 80%;
+  right: 20%;
+}
+
+.main12{
+  position: relative;
+  bottom: 400px;
+}
+
+.path3 {
+  fill: none;
+  stroke: black;
+  position: relative;
+}
+
+.path4 {
+  fill: none;
+  stroke: black;
+  position: relative;
+}
+
+.content4 {
+  left: 10%;
+  bottom: 80%;
+  position: relative;
+}
+
+.path5 {
+  fill: none;
+  stroke: black;
+  position: relative;
+}
+
+.content5 {
+  left: 10%;
+  bottom: 80%;
+  position: relative;
+}
+
+.path6 {
+  fill: none;
+  stroke: rgb(30, 30, 30);
+  position: relative;
+}
+
+.content6 {
+  bottom: 300px;
+  position: relative;
+}
+
+.path7 {
+  fill: none;
+  stroke: rgb(74, 74, 74);
+  position: relative;
+}
+
+.content7 {
+  bottom: 70%;
+  position: relative;
+}
+
+.path8 {
+  fill: none;
+  stroke: rgb(244, 244, 244);
+  position: relative;
+}
+
+.footer {
+  height: 100px;
+  background-color: black;
+  position: relative;
+}
+
+@media only screen and (max-width: 768px){
+  body{
+    box-sizing:border-box;
+    overflow-x: hidden; } 
+
+
+  .path{
+        stroke-width: 4px;
+      }
+  
+  img{
+    width: 90px;
+    height: 90px;
+  }    
+
+  .title1{
+    font-size: 1.5rem;
+    line-height:28px;
+    white-space: normal;
+  }
+  .title2{
+    font-size: 1.5rem;
+    line-height:28px;
+  }
+  .text1{
+    font-size: 1.2rem;
+    line-height:20px;
+    white-space: normal;
+  }
+
+  .text2{
+    font-size: 0.9rem;
+    line-height:20px;
+    white-space: normal;
+  }
+  
+  .title3 {
+    font-size: 1.7rem;
+    line-height: 35px;
+    text-align:center;
+    color: rgb(59, 59, 59);   
+  }
+  
+  .textBox1 {
+    top: 120px;
+    left: 25%;
+    position: absolute;
+  }
+
+  .content1 {
+    top: 10%;
+    position: relative;
+  }
+  
+  .content2 {
+    position: relative;
+    bottom: 60%;
+  }
+  
+  .icon1 {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .icon2{
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60%;
+    flex-wrap: nowrap;
+  }
+  
+  
+  .main1 {
+    top: 30%;
+    left: 6%;
+    position: absolute;
+  }
+  
+  .main2 {
+    top: 55%;
+    left: 150px;
+    position: absolute;
+  }
+  
+  .main3 {
+    bottom: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main4{
+    left: 10%;
+    top: -500px;
+    position: relative;
+  }
+  
+  .content3 svg{
+    left: -50px;
+    width: 120%;
+  }
+
+  .main5{
+    bottom: 80%;
+    left: -100px;
+    position: relative;
+  }
+  
+  .icon3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon5{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+  }
+
+
+
+  .content4 svg {
+    margin: 0px;
+    width: 100%;
+  }
+
+
+  .content3 {
+    bottom: 65%;
+    position: relative;
+  }
+  
+  
+  .main6{
+    position: relative;
+    left:-120px;
+    bottom: 5%;
+  }
+  
+  .main7{
+    position: relative;
+    padding:10%;
+    bottom: 60%;
+  }
+  
+  .main8{
+    position: relative;
+    top: -420px;
+  }
+  
+  .main9{
+    position: relative;
+    top: 10%;
+    left: -130px;
+  }
+
+  .main10{
+    position: relative;
+    top: -395px;
+  }
+  
+  .main11{
+    position: relative;
+    top: -205px;
+  }
+  .main12{
+    position: relative;
+    top: -455px;
+  }
+  
+  .content4 {
+    left: 0%;
+    bottom: 1000px;
+    position: relative;
+  }
+  
+  .content5 {
+    left: 10%;
+    bottom: 900px;
+    position: relative;
+  }
+  
+  .content6 {
+    bottom: 400px;
+    position: relative;
+  }
+  
+  .content7 {
+    bottom: 100px;
+    position: relative;
+  }
+  
+
+  }
