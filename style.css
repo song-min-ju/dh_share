@@ -509,3 +509,209 @@ img{
   
 
   }
+
+  @media only screen and (max-width: 414px){
+    body{
+      box-sizing:border-box;
+      overflow-x: hidden; 
+    } 
+  
+    .font1 {
+      font-family: 'Noto Sans KR';
+      color: rgb(0, 0, 0);
+      font-weight: 700;
+      font-size: 1.4rem;
+      display: flex;
+      justify-content: center;
+      padding: 70px;
+      text-align: center;}
+  
+    .path{
+          stroke-width: 6px;
+        }
+    
+    img{
+      width: 50px;
+      height: 50px;
+      box-shadow: 3px 3px 3px 3px rgb(170, 170, 170);
+    }    
+  
+    .title1{
+      font-size: 1rem;
+      line-height:20px;
+      white-space: normal;
+      
+    }
+    .title2{
+      font-size: 1rem;
+      line-height:20px;
+      white-space: normal;
+    }
+    .text1{
+      font-size: 0.6rem;
+      line-height:15px;
+      white-space: nowrap;
+    }
+  
+    .text2{
+      font-size: 0.6rem;
+      line-height:15px;
+      white-space: normal;
+    }
+    
+    .title3 {
+      font-size: 1.1rem;
+      line-height: 22px;
+      text-align:center;
+      color: rgb(59, 59, 59);   
+    }
+    
+    .textBox1 {
+      top: 30px;
+      left: 25%;
+      position: absolute;
+    }
+  
+    .content1 {
+      top: 10%;
+      position: relative;
+    }
+    
+    .content2 {
+      position: relative;
+      bottom: 35%;
+    }
+    
+    .icon1 {
+      display: grid;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+    }
+    
+    .icon2{
+      margin: 0 auto;
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 60%;
+      flex-wrap: nowrap;
+    }
+    
+    
+    .main1 {
+      top: 30%;
+      left: 4%;
+      position: absolute;
+    }
+    
+    .main2 {
+      top: 53%;
+      left: 45px;
+      position: absolute;
+    }
+    
+    .main3 {
+      bottom: 12%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .main4{
+      left: 10px;
+      top: -245px;
+      position: relative;
+    }
+    
+    .content3 svg{
+      left: -10px;
+      width: 110%;
+    }
+  
+    .main5{
+      bottom: 74%;
+      left: -41px;
+      position: relative;
+    }
+    
+  
+    .content4 svg {
+      margin: 0px;
+      width: 100%;
+    }
+  
+  
+    .content3 {
+      bottom: 52%;
+      position: relative;
+    }
+    
+    
+    .main6{
+      position: relative;
+      left: -66px;
+      bottom: 0%;
+  
+    }
+    
+    .main7{
+      position: relative;
+      padding: 0px;
+      bottom: 50%;
+      width: 170px;
+      left: 120px;
+    }
+    
+    .main8{
+      position: relative;
+      top: -230px;
+      width: 120px;
+      left: 180px;
+    }
+    
+    .main9{
+      position: relative;
+      top: -17%;
+      left: 30px;
+      width: 129px;}
+  
+    .main10{
+      position: relative;
+      top: -395px;
+    }
+    
+    .main11{
+      position: relative;
+      top: -205px;
+    }
+    .main12{
+      position: relative;
+      top: -455px;
+    }
+    
+    .content4 {
+      left: 0%;
+      bottom: 800px;
+      position: relative;
+    }
+    
+    .content5 {
+      left: 10%;
+      bottom: 620px;
+      position: relative;
+    }
+    
+    .content6 {
+      bottom: 300px;
+      position: relative;
+    }
+    
+    .content7 {
+      bottom: 100px;
+      position: relative;
+    }
+    
+  
+    }
