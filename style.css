@@ -300,6 +300,10 @@
   position: relative;
 }
 
+img{
+  box-shadow: 5px 5px 5px 5px rgb(164, 164, 164); 
+}
+
 @media only screen and (max-width: 768px){
   body{
     box-sizing:border-box;
@@ -311,22 +315,24 @@
       }
   
   img{
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
+    box-shadow: 3px 3px 3px 3px rgb(170, 170, 170);
   }    
 
   .title1{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height:28px;
     white-space: normal;
+    
   }
   .title2{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height:28px;
   }
   .text1{
-    font-size: 1.2rem;
-    line-height:20px;
+    font-size: 0.8rem;
+    line-height:18px;
     white-space: normal;
   }
 
