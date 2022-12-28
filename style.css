@@ -515,7 +515,11 @@ img{
       box-sizing:border-box;
       overflow-x: hidden; 
     } 
-  
+    
+    p{
+      width: 200px;
+    }
+
     .font1 {
       font-family: 'Noto Sans KR';
       color: rgb(0, 0, 0);
@@ -550,7 +554,7 @@ img{
     .text1{
       font-size: 0.6rem;
       line-height:15px;
-      white-space: nowrap;
+      white-space: normal;
     }
   
     .text2{
@@ -607,13 +611,14 @@ img{
     }
     
     .main2 {
-      top: 53%;
-      left: 45px;
+      top: 54%;
+      left: 50px;
       position: absolute;
+      width: 267px  
     }
     
     .main3 {
-      bottom: 12%;
+      bottom: 10%;
       position: relative;
       display: flex;
       flex-direction: column;
@@ -631,9 +636,10 @@ img{
     }
   
     .main5{
-      bottom: 74%;
-      left: -41px;
+      bottom: 58%;
+      left: 120px;
       position: relative;
+      width: 0px;
     }
     
   
@@ -644,42 +650,51 @@ img{
   
   
     .content3 {
-      bottom: 52%;
+      bottom: 37%;
+      left: -39px;
       position: relative;
     }
     
     
     .main6{
       position: relative;
-      left: -66px;
-      bottom: 0%;
+      left: -65px;
+      bottom: -20px;
+      width: 243px;
   
     }
     
     .main7{
       position: relative;
       padding: 0px;
-      bottom: 50%;
-      width: 170px;
-      left: 120px;
+      bottom: 40%;
+      width: 313px;
+      left: 36px;
+
+    }
+
+    .text2 br{
+      display: none;
     }
     
     .main8{
       position: relative;
-      top: -230px;
-      width: 120px;
-      left: 180px;
+      top: -286px;
+      width: 118px;
+      left: 146px;
     }
     
     .main9{
       position: relative;
       top: -17%;
       left: 30px;
-      width: 129px;}
+      width: 152px;}
   
     .main10{
       position: relative;
-      top: -395px;
+      top: -300px;
+      width: 251px;
+      left: 73px;
     }
     
     .main11{
@@ -688,12 +703,14 @@ img{
     }
     .main12{
       position: relative;
-      top: -455px;
+      top: -411px;
+      left: 73px;
+      width: 241px;
     }
     
     .content4 {
       left: 0%;
-      bottom: 800px;
+      bottom: 660px;
       position: relative;
     }
     
@@ -713,5 +730,14 @@ img{
       position: relative;
     }
     
-  
+    .icon3 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      position: relative;
+      left: 60px;
+    }
+
+
     }
